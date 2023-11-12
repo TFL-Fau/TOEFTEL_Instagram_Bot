@@ -57,7 +57,10 @@ This Instagram bot serves as a demonstration of automation possibilities on soci
   - Based on the post's content, generate relevant and engaging comments. (❌ Not Done due to unsatisfactory outcomes)
 
 ### Setup & Usage
-Install the requirements in your conda environment as listed in the enviroment.txt file.
+- Import yml file into a anaconda environment.
+- Open command line in environment, go to app.py file location.
+- Enter python app.py.
+- Open browser and open: http://127.0.0.1:5000/
 
 ### License
 
