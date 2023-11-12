@@ -1,0 +1,12 @@
+name: Instagram_Bot
+channels:
+  - defaults
+dependencies:
+  - pip=23.2.1
+  - python=3.10
+  - packaging
+  - pip:
+    - flask==2.3.3
+    - selenium==4.10.0
+    - undetected-chromedriver==3.5.3
+    - webdriver-manager==4.0.1

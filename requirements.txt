@@ -1,0 +1,4 @@
+flask==2.3.3
+selenium==4.10.0
+undetected-chromedriver==3.5.3
+webdriver-manager==4.0.1

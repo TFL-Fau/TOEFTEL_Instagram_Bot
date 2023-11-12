@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Instagram Bot Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            position: relative;
+        }
+
+        form {
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #78bc44;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(120, 188, 68, 0.15);
+            width: 300px;
+        }
+
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #78bc44;
+        }
+
+	h4 {
+	    text-align: center;
+	}
+
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #78bc44;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #78bc44;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #558c2f;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #78bc44;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .password-wrapper {
+            position: relative;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .toggle-password {
+           position: absolute;
+           top: 40%;
+           right: 1px;
+           transform: translateY(-50%);
+           cursor: pointer;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #bot-messages {
+            border: 2px solid #78bc44;
+            border-radius: 12px;
+            padding: 10px;
+            width: 300px;
+            height: 615px;
+            overflow-y: auto;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <form action="/run-bot" method="post" id="botForm">
+        <h2>Instagram Bot</h2>
+        <input type="text" name="accountname" placeholder="Username" required><br>
+        <div class="password-wrapper">
+           <input type="password" id="passwordInput" name="password" placeholder="Password" required>
+           <span onclick="togglePasswordVisibility()" class="toggle-password">👁️</span>
+        </div>
+        <input type="text" name="hashtags" placeholder="Hashtag1,Hashtag2" id="hashtagsInput"><br>
+	<input type="text" name="commentname" placeholder="Account Name" id="accountname" disabled><br>
+	
+        <h3>Which methods?</h3>
+	<h4>If you just press start, it will only check if you have followed accounts for more than three days!</h4>
+        <input type="checkbox" id="combo_method" name="methods" value="follow_save_like_comment"> Comment, like and follow posts<br>
+        <input type="checkbox" id="comment_method" name="methods" value="Comment and Like"> Comment and like posts<br>
+        <input type="checkbox" id="follow_method" name="methods" value="Follow and Save Accounts"> Follow posts<br>
+        <input type="checkbox" name="methods" id="send_dm" value="send_dm" disabled> Send DMs<br>
+	<input type="checkbox" name="methods" id="answer_comments" value="answer_comments">Comment Comments<br>	
+        <input type="checkbox" name="methods" id="follow_followers" value="follow_followers">Follow Followers<br>	
+	<input type="checkbox" name="methods" value="unfollow_all"> Unfollow All<br><br>
+	
+        <input type="submit" value="Start">
+    </form>
+    <div id="bot-messages"></div>
+</div>
+    <div class="footer">
+        Made by TOEFTEL 2023
+    </div>
+
+    <script>
+        function updateRequirements() {
+            var comboMethod = document.getElementById('combo_method');
+            var commentMethod = document.getElementById('comment_method');
+            var followMethod = document.getElementById('follow_method');
+            var sendDm = document.getElementById('send_dm');
+            var hashtagsInput = document.getElementById('hashtagsInput');
+            
+            var isChecked = comboMethod.checked || commentMethod.checked || followMethod.checked;
+            
+            hashtagsInput.required = isChecked;
+            sendDm.disabled = !isChecked;
+        }
+        
+        document.getElementById('combo_method').addEventListener('change', updateRequirements);
+        document.getElementById('comment_method').addEventListener('change', updateRequirements);
+        document.getElementById('follow_method').addEventListener('change', updateRequirements);
+        document.getElementById('botForm').addEventListener('submit', function(e) {
+            updateRequirements();
+            if (!this.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        });
+    </script>
+<script>
+    document.getElementById('combo_method').addEventListener('change', function() {
+        if (this.checked) {
+            document.getElementById('comment_method').disabled = true;
+            document.getElementById('follow_method').disabled = true;
+        } else {
+            document.getElementById('comment_method').disabled = false;
+            document.getElementById('follow_method').disabled = false;
+        }
+    });
+
+    document.getElementById('follow_followers').addEventListener('change', function() {
+        var accountNameInput = document.getElementById('accountname');
+        if (this.checked) {
+            accountNameInput.removeAttribute('disabled');
+        } else {
+            accountNameInput.setAttribute('disabled', 'disabled');
+        }
+    });
+
+    document.getElementById('answer_comments').addEventListener('change', function() {
+        var accountNameInput = document.getElementById('accountname');
+        if (this.checked) {
+            accountNameInput.removeAttribute('disabled');
+        } else {
+            accountNameInput.setAttribute('disabled', 'disabled');
+        }
+    });
+</script>
+<script>
+    function togglePasswordVisibility() {
+        var passwordInput = document.getElementById('passwordInput');
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+        } else {
+            passwordInput.type = "password";
+        }
+    }
+</script>
+<script>
+if (!!window.EventSource) {
+    var source = new EventSource('/status');
+
+    source.addEventListener('message', function(e) {
+        var data = JSON.parse(e.data);
+        var div = document.getElementById('bot-messages');
+        var messageDiv = document.createElement('div');
+        messageDiv.innerText = data.message;
+
+        messageDiv.style.color = 'black';
+        messageDiv.style.borderTop = '1px solid rgba(120, 188, 68, 0.5)';
+
+        div.appendChild(messageDiv);
+        element.scrollTop = element.scrollHeight - element.clientHeight;
+
+    });
+}
+</script>
+</body>
+</html>
