@@ -232,93 +232,93 @@ class CommentGenerator:
         self.iterations_message = 0
 
         self.comment_post = [
-            "Ganz meine Meinung!",
-            "Genau das wollte ich auch sagen.",
-            "Du hast mir aus der Seele gesprochen.",
-            "Sehe ich genauso.",
-            "Das habe ich auch gedacht!",
-            "Vollkommen richtig.",
-            "Ich stimme dir zu 100% zu.",
-            "Du hast es auf den Punkt gebracht.",
-            "Das war auch mein erster Gedanke.",
-            "Ganz deiner Meinung!",
-            "Da bist du nicht allein mit deiner Meinung.",
-            "Ich hätte es nicht besser ausdrücken können.",
-            "Da stimme ich voll und ganz zu.",
-            "Das war auch mein Eindruck.",
-            "Exakt meine Gedanken dazu.",
-            "Da liegst du absolut richtig.",
-            "Ja, genau das!",
-            "Das sehe ich genauso.",
-            "Du hast den Nagel auf den Kopf getroffen.",
-            "Ich bin froh, dass jemand das endlich ausspricht.",
-            "Ich fühle genau das Gleiche.",
-            "So sehe ich das auch.",
-            "Ich könnte nicht mehr zustimmen.",
-            "Danke, dass du das angesprochen hast. Ich sehe das genauso.",
-            "Genau meine Worte.",
-            "Das habe ich auch so empfunden.",
-            "Da sind wir uns einig.",
-            "Du sprichst mir aus dem Herzen.",
-            "Das denke ich auch.",
-            "Du hast genau die Worte gefunden, die mir fehlten.",
-            "Absolut korrekt.",
-            "Ja, das ist auch meine Ansicht.",
-            "Ich sehe das genauso wie du.",
-            "Du hast es perfekt zusammengefasst.",
-            "Da sind wir auf der gleichen Wellenlänge.",
-            "Ganz genau.",
-            "Ich bin ganz bei dir.",
-            "So ist es!",
-            "Genau so ist es.",
-            "Da kann ich nur zustimmen.",
-            "Das war auch mein Gefühl dazu.",
-            "Ja, das sehe ich auch so.",
-            "Ich stimme dir in jedem Punkt zu.",
-            "Das trifft es genau.",
-            "Da gehe ich konform.",
-            "Dem kann ich nur beipflichten.",
-            "Das repräsentiert auch meine Sichtweise.",
-            "Das ist auch meine Überzeugung.",
-            "Ich teile deine Meinung.",
-            "Das spiegelt auch meine Gedanken wieder.",
-            "Genau darauf wollte ich auch hinaus.",
-            "Das ist genau meine Ansicht.",
-            "Da sind wir uns wohl einig.",
-            "Du hast es genau erfasst.",
-            "Das ist auch meine Meinung.",
-            "Ich könnte es nicht besser formulieren.",
-            "Ja, das trifft es!",
-            "So hätte ich es auch gesagt.",
-            "Das finde ich auch.",
-            "Dem kann ich mich nur anschließen.",
-            "Da hast du genau recht.",
-            "Das ist auch meine Wahrnehmung.",
-            "Das denke ich ebenso.",
-            "Ich stimme dir vollkommen zu.",
-            "Ja, das sehe ich genauso.",
-            "Dem ist nichts hinzuzufügen.",
-            "Das repräsentiert meine Meinung exakt.",
-            "Das habe ich auch so gesehen.",
-            "Das ist auch meine Überzeugung.",
-            "Ja, genau das denke ich auch.",
-            "Dem stimme ich voll und ganz zu.",
-            "Das sehe ich auch so.",
-            "Das finde ich auch.",
-            "Da stimme ich dir zu.",
-            "Ja, das ist auch mein Standpunkt.",
-            "Du hast genau das ausgedrückt, was ich dachte.",
-            "Da gebe ich dir recht.",
-            "Das ist auch meine Einschätzung.",
-            "Ich sehe das genauso wie du.",
-            "Dem kann ich nur zustimmen.",
-            "Das ist auch meine Perspektive.",
-            "Ja, das sehe ich auch so.",
-            "Das ist genau meine Meinung.",
-            "Genau das denke ich auch.",
-            "Das sehe ich auch so.",
-            "Das repräsentiert genau meine Gedanken dazu.",
-            "Ich bin ganz deiner Meinung."        
+            "I completely agree!",
+            "Exactly what I wanted to say.",
+            "You've taken the words right out of my mouth.",
+            "I see it the same way.",
+            "That's what I thought!",
+            "Absolutely right.",
+            "I agree with you 100%.",
+            "You've hit the nail on the head.",
+            "That was also my first thought.",
+            "Totally agree with you!",
+            "You're not alone in your opinion.",
+            "I couldn't have put it better myself.",
+            "I fully agree.",
+            "That was also my impression.",
+            "Exactly my thoughts on this.",
+            "You are absolutely correct.",
+            "Yes, exactly that!",
+            "I see it the same way.",
+            "You've hit the nail on the head.",
+            "I'm glad someone finally said it.",
+            "I feel exactly the same.",
+            "That's how I see it too.",
+            "I couldn't agree more.",
+            "Thank you for bringing this up. I feel the same way.",
+            "Exactly my words.",
+            "That's how I perceived it too.",
+            "We agree on this.",
+            "You're speaking from my heart.",
+            "I think so too.",
+            "You've found exactly the words I was missing.",
+            "Absolutely correct.",
+            "Yes, that's also my view.",
+            "I see it just like you do.",
+            "You've summarized it perfectly.",
+            "We're on the same wavelength.",
+            "Exactly right.",
+            "I'm with you on this.",
+            "That's it!",
+            "Exactly so.",
+            "I can only agree.",
+            "That was also my feeling on it.",
+            "Yes, I see it that way too.",
+            "I agree with you on every point.",
+            "That's exactly it.",
+            "I concur.",
+            "I can only concur.",
+            "That represents my viewpoint as well.",
+            "That's also my conviction.",
+            "I share your opinion.",
+            "That also reflects my thoughts.",
+            "That's exactly what I was getting at.",
+            "That's exactly my view.",
+            "It seems we agree.",
+            "You've captured it exactly.",
+            "That's also my opinion.",
+            "I couldn't put it better myself.",
+            "Yes, that's exactly it!",
+            "That's how I would have said it.",
+            "I find that too.",
+            "I can only join in.",
+            "You're exactly right.",
+            "That's also my perception.",
+            "I think the same.",
+            "I completely agree with you.",
+            "Yes, I see it the same way.",
+            "Nothing to add there.",
+            "That represents my opinion exactly.",
+            "That's how I saw it too.",
+            "That's also my conviction.",
+            "Yes, exactly that's what I think too.",
+            "I wholeheartedly agree.",
+            "I see it that way too.",
+            "I find that too.",
+            "I agree with you.",
+            "Yes, that's my position too.",
+            "You've expressed exactly what I was thinking.",
+            "I agree with you there.",
+            "That's also my assessment.",
+            "I see it just like you do.",
+            "I can only agree.",
+            "That's also my perspective.",
+            "Yes, I see it that way too.",
+            "That's exactly my opinion.",
+            "Exactly what I think too.",
+            "I see it that way too.",
+            "That represents exactly my thoughts on it.",
+            "I completely agree with you."
         ]
         
         self.index_comment_post = 0
@@ -407,7 +407,6 @@ class InstagramBot:
             cookies = self.driver.find_element(By.XPATH, "//button[text()='Optionale Cookies ablehnen']")
             cookies.click()
         except NoSuchElementException:
-            print("No Cookie button!")
             add_message("No Cookie button!")
                 
         # Find the login elements and enter email and password
@@ -432,11 +431,32 @@ class InstagramBot:
         # Extract href values
         hrefs = [element.get_attribute("href") for element in elements if element.get_attribute("href").startswith("https://www.instagram.com/p")]
         
-        # Print them out
+        # Add them to cls
         for href in hrefs:
-            print(href)
-            add_message("Found Post: " + href)
             cls.links.append(href)
+            
+        add_message(f"Total number of posts found: {len(hrefs)}")
+
+    def like_posts(self, cls):
+        liked_count = 0
+        for link in cls.links:
+            # Open each post link
+            self.driver.get(link)
+            time.sleep(2)
+
+            try:               
+                if random.random() > 0.25:
+                    element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[3]/section[1]/div[1]/span[1]/div/div")
+                    ActionChains(self.driver).move_to_element(element).click(element).perform()
+                    liked_count += 1
+                    add_message(f"Liked Post. Total liked: {liked_count}")
+
+            except Exception as e:
+                add_message(f"Post: {link}. Can not be liked, so it got skipped!")
+                continue
+            
+            sleep_duration = random.randint(5, 15)
+            time.sleep(sleep_duration)
     
     def comment_on_posts_and_like(self, cls):
         likes = 0
@@ -462,12 +482,11 @@ class InstagramBot:
                     actions.send_keys(Keys.RETURN)
                     actions.perform()
                 
-                if random.random() > 0.2:
-                    element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[3]/div[1]/div[1]/span[1]/div")
-                    element.click()
+                if random.random() > 0.25:
+                    element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[3]/section[1]/div[1]/span[1]/div/div")
+                    ActionChains(self.driver).move_to_element(element).click(element).perform()
 
             except Exception as e:
-                print(f"No comment option for post {link}. So it got skipped!")
                 add_message(f"No comment option for post {link}. So it got skipped!")
                 continue
             
@@ -487,7 +506,7 @@ class InstagramBot:
                 follow_button = WebDriverWait(self.driver, 3).until(EC.element_to_be_clickable((By.XPATH, "//div[text()='Folgen']")))
                 follow_button.click()
                 time.sleep(2)
-                element = self.driver.find_element(By.XPATH, '//div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div[1]/div/span/span/div/a/div/div/span')
+                element = self.driver.find_element(By.XPATH, '//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div[1]/div/span/span/div/a/div/div/span')
 
                 # Check if the name is not already in the list
                 if element.text not in names:
@@ -495,11 +514,9 @@ class InstagramBot:
                     names.append(element.text)
                     print(names)  # This should print the latest name appended to the list
                 else:
-                    print(f"{element.text} is already in the list.")
                     add_message(f"{element.text} is already in the list.")
             
             except Exception as e:
-                print("More posters so it got skipped!")
                 add_message("More posters so it got skipped!")
                 
                 continue
@@ -515,7 +532,6 @@ class InstagramBot:
             for name in names:
                 file.write(f"{name}\n")
 
-        print(f"Names saved to file: {file_path}.")
         add_message(f"Names saved to file: {file_path}.")
     
     def follow_save_like_comment(self, cls, account_name):
@@ -527,11 +543,10 @@ class InstagramBot:
             self.driver.get(link)
             time.sleep(2)
             try:
-                element = self.driver.find_element(By.XPATH, '//div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div[1]/div/span/span/div/a/div/div/span')
+                element = self.driver.find_element(By.XPATH, '//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div[1]/div/span/span/div/a/div/div/span')
                 
                 if element.text not in cls.names:
                     cls.names.append(element.text)
-                    print(cls.names)
                     add_message(cls.names)
                     
                     follow_button = WebDriverWait(self.driver, 3).until(EC.element_to_be_clickable((By.XPATH, "//div[text()='Folgen']")))
@@ -549,15 +564,13 @@ class InstagramBot:
                         actions.perform()
                 
                 if random.random() > 0.25:
-                    element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[3]/div[1]/div[1]/span[1]/div")
-                    element.click()
+                    element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[3]/section[1]/div[1]/span[1]/div/div")
+                    ActionChains(self.driver).move_to_element(element).click(element).perform()
                     
                 else:
-                    print(f"{element.text} is already in the list.")
                     add_message(f"{element.text} is already in the list.")
                 
             except Exception as e:
-                print("Skipping...")
                 add_message("Skipping...")
             sleep_duration = random.randint(5, 15)
             time.sleep(sleep_duration)
@@ -572,11 +585,9 @@ class InstagramBot:
         if not os.path.exists(folder_path):
             # Ordner erstellen, falls er nicht existiert
             os.makedirs(folder_path)
-            print(f"Ordner {folder_path} wurde erstellt.")
-            add_message(f"Ordner {folder_path} wurde erstellt.")
+            add_message(f"Folder {folder_path} got created.")
         else:
-            print(f"Ordner {folder_path} existiert bereits.")
-            add_message(f"Ordner {folder_path} existiert bereits.")
+            add_message(f"Folder {folder_path} already exists.")
         
         # Create the path for the file based on the timestamp
         file_path = os.path.join('followed_accounts\\'+account_name.lower(), f"{timestamp}.txt")
@@ -586,7 +597,6 @@ class InstagramBot:
             for name in cls.names:
                 file.write(f"{name}\n")
 
-        print(f"Names saved to file: {file_path} in folder {account_name.lower()}.")
         add_message(f"Names saved to file: {file_path} in folder {account_name.lower()}.")
     
     def process_files_in_directory(self, name):
@@ -600,7 +610,6 @@ class InstagramBot:
         
         # Check if the text is '0'
         if len(followed_elements) == 0:
-            print("Account got no followers, so checking files in folder!")
             add_message("Account got no followers, so checking files in folder!")
             # Define folder path
             folder_path = "followed_accounts\\"+name
@@ -612,7 +621,6 @@ class InstagramBot:
 
                 # Check if list is empty
                 if not files:
-                    print(f"There are no files in folder {folder_path}.")
                     add_message(f"There are no files in folder {folder_path}.")
                 else:
                     # Go through all files in folder
@@ -627,13 +635,10 @@ class InstagramBot:
                                 print(f"File {file_path} got deleted.")
                                 add_message(f"File {file_path} got deleted.")
 
-                    print(f"All files in folder {folder_path} got deleted.")
                     add_message(f"All files in folder {folder_path} got deleted.")
             else:
-                print("Folder does not exist!")
                 add_message("Folder does not exist!")
         else:
-            print("Checking files in folder for account!")
             add_message("Checking files in folder for account!")
             # Iterate over each file in the directory
             for file_name in os.listdir("followed_accounts"):
@@ -668,10 +673,8 @@ class InstagramBot:
                         # Delete the file after processing it
                         os.remove(os.path.join("followed_accounts", file_name))
 
-                        print(f"Unfollowed all accounts from {file_name}. And deleted file!")
                         add_message(f"Unfollowed all accounts from {file_name}. And deleted file!")
                     else:
-                        print(f"Skipping file: {file_name} as it's not older than 3 days.")
                         add_message(f"Skipping file: {file_name} as it's not older than 3 days.")
      
     def send_dm(self, cls):
@@ -782,7 +785,6 @@ class InstagramBot:
 
             # Check if list is empty
             if not files:
-                print(f"There are no file in folder  {folder_path}.")
                 add_message(f"There are no file in folder {folder_path}.")
             else:
                 # Go through all files in folder
@@ -794,7 +796,6 @@ class InstagramBot:
                         # Check if its a file and delete it
                         if os.path.isfile(file_path) or os.path.islink(file_path):
                             os.unlink(file_path)
-                            print(f"File {file_path} got deleted.")
                             add_message(f"File {file_path} got deleted.")
 
                 print(f"All files in folder {folder_path} got deleted.")
@@ -806,13 +807,13 @@ class InstagramBot:
     def answer_comments(self, name):
         self.driver.get("https://www.instagram.com/" + name.lower() + "/")
         time.sleep(5)
-        # Alle <a>-Elemente mit dem gegebenen Klassennamen auswählen
+        # Select all <a> elements with the given class name
         links_elements = self.driver.find_elements(By.CSS_SELECTOR, 'a.x1i10hfl.xjbqb8w')
 
-        # Die href-Attribute der ausgewählten Elemente in einer Liste speichern
+        # Save the href attributes of the selected elements in a list
         hrefs = [link.get_attribute('href') for link in links_elements]
 
-        # Filtern Sie die Liste, um nur die URLs zu behalten, die mit 'https://www.instagram.com/p/' beginnen
+        # Filter the list to only keep URLs that start with 'https://www.instagram.com/p/'
         filtered_urls = [url for url in hrefs if url.startswith('https://www.instagram.com/p/')]
 
         answer_gen = CommentGenerator()
@@ -832,7 +833,6 @@ class InstagramBot:
                     sleep_duration = random.randint(2, 5)
                     time.sleep(sleep_duration)			
                 except NoSuchElementException:
-                    print("This Post can't be commented!")
                     add_message("This Post can't be commented!")
                     
     def follow_followers(self,name):
@@ -847,7 +847,6 @@ class InstagramBot:
             )
             # Now you can work with followed_elements
         except TimeoutException:
-            print("Timed out waiting for elements to appear")
             add_message("Timed out waiting for elements to appear")
         
         # Go through the list of items found and click on each one
@@ -863,13 +862,77 @@ class InstagramBot:
                     sleep_duration = random.randint(1, 5)
                     time.sleep(sleep_duration)
                 except ElementClickInterceptedException:
-                    print("Could not find element. Finished Task!")
                     add_message("Could not find element. Finished Task!")
                     break
             else:
                 break
-        print("Finished following Followers!")
-        add_message("Finished following Followers!")   
+        add_message("Finished following Followers!")
+
+    def like_stories(self, cls):
+
+        time.sleep(2)
+        
+        # Click Start page
+        element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div[1]/div/span/div/a/div/div[2]/div/div/span/span")
+        ActionChains(self.driver).move_to_element(element).click(element).perform()
+
+        time.sleep(2)
+
+        # Deactivate Notifications
+        element = self.driver.find_element(By.XPATH, "/html/body/div[6]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]")
+        ActionChains(self.driver).move_to_element(element).click(element).perform()
+        
+        # Click first story
+        element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/div/div[2]/div/div/div/div/div/div/ul/li[3]/div/button")
+        ActionChains(self.driver).move_to_element(element).click(element).perform()
+
+        time.sleep(5)
+        
+        counter = 0
+        last_href = None 
+
+        while counter <= 30:
+            time.sleep(2)
+            try:
+                element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/section/div[1]/div/div[5]/section/div/header/div[2]/div[1]/div/div[2]/div/div[1]/a")
+                current_href = element.get_attribute("href")
+                print(current_href)
+            except Exception as e:
+                # Click next
+                try:
+                    next_element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/section/div[1]/div/div[5]/section/div/button[2]/div")
+                    ActionChains(self.driver).move_to_element(next_element).click(next_element).perform()
+                except Exception as e:
+                    print("Finished liking all new stories! Start again for liking existing ones!")
+                    break
+
+            if current_href != last_href:
+
+                last_href = current_href
+                
+                # Click like
+                try:
+                    like_element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/section/div[1]/div/div[5]/section/div/div[3]/div/div/div[2]/div[1]/span/div/div")
+                    ActionChains(self.driver).move_to_element(like_element).click(like_element).perform()
+                except Exception as e:
+                    print("Could not like the post, probably an advertisement")
+                    # Click next
+                    try:
+                        next_element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/section/div[1]/div/div[5]/section/div/button[2]/div")
+                        ActionChains(self.driver).move_to_element(next_element).click(next_element).perform()
+                    except Exception as e:
+                        print("Finished liking all new stories! Start again for liking existing ones!")
+                        break
+                    
+                counter += 1
+                print(counter)
+            else:
+                # Click next
+                try:
+                    next_element = self.driver.find_element(By.XPATH, "//div/div/div[2]/div/div/div[1]/div[1]/section/div[1]/div/div[5]/section/div/button[2]/div")
+                    ActionChains(self.driver).move_to_element(next_element).click(next_element).perform()
+                except Exception as e:
+                    print("Could not click next.")
 
 # In[4]:
 
@@ -880,7 +943,6 @@ def start_bot(hashtags_user, name, passwort, methods, accountname):
     bot.login(email=name, password=passwort)
     
     if len(hashtags[0]) - 1 < 3:
-        print("No Hashtags were given, continuing code!")
         add_message("No Hashtags were given, continuing code!")
     else:
         for hashtag in hashtags:
@@ -889,10 +951,9 @@ def start_bot(hashtags_user, name, passwort, methods, accountname):
 
             bot.get_post_links(bot, hashtag=hashtag)
 
-            print(f"Finished getting links for hashtag: {hashtag}")
             add_message(f"Finished getting links for hashtag: {hashtag}")
         
-    # Jetzt können Sie auf der Grundlage der ausgewählten Methoden jeweils Methoden aufrufen
+    # Now you can call methods on each based on the selected methods
     for method in methods:
         if method == "comment_on_posts_and_like":
             bot.comment_on_posts_and_like(bot)
@@ -908,6 +969,10 @@ def start_bot(hashtags_user, name, passwort, methods, accountname):
             bot.follow_followers(accountname)
         elif method == "answer_comments":
             bot.answer_comments(accountname)
+        elif method == "like_posts":
+            bot.like_posts(bot)
+        elif method == "like_stories":
+            bot.like_stories(bot)
     bot.process_files_in_directory(name)
     print("Finished all Tasks. Have a nice day!")
     add_message("Finished all Tasks. Have a nice day!")
