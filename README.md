@@ -9,6 +9,7 @@ This Instagram bot serves as a demonstration of automation possibilities on soci
 - Link to Video Part 1 (public): https://youtu.be/BR4TxhSrBTc
 - Link to Video Part 2 (public): https://youtu.be/T0OMQ9MRGLY
 - Link to Video Part 3 (public): https://youtu.be/HwksRdA_814
+- Link to Video Part 4 (public): https://youtu.be/xlQmGy6A7Hg?si=3vnvbLxk5XAblz_1
 
 ### Features
 - Account Data Retrieval:
